@@ -1,6 +1,5 @@
 from aiogram import types
 
-
 def main_menu():
     kb = [
         [types.KeyboardButton(text="Каталог")],
@@ -27,8 +26,7 @@ def catalog_menu():
     return types.ReplyKeyboardMarkup(
         keyboard=kb,
         resize_keyboard=True
-    )from aiogram import types
-
+    )
 
 def main_menu():
     kb = [
